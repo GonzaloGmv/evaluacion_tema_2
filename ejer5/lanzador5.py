@@ -1,4 +1,4 @@
-from ejr5 import Vehiculo, Coche, Camioneta, Bicicleta, Motocicleta
+from ejer5.ejr5 import Vehiculo, Coche, Camioneta, Bicicleta, Motocicleta
 
 def main5():
     c = Coche("azul", 4, 150, 1200)

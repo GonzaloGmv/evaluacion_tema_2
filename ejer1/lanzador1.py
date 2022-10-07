@@ -1,4 +1,4 @@
-from ejr1 import alumno
+from ejer1.ejr1 import alumno
 
 def main1():
     German = alumno("German", 0)

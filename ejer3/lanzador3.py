@@ -1,4 +1,4 @@
-from ejr3 import Producto
+from ejer3.ejr3 import Producto
 
 def main3():
     patatas = Producto(768, "Patatas", 1.5, "pequeñas")
