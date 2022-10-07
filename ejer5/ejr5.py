@@ -40,6 +40,7 @@ def catalogar(catalogo, ruedas):
     con_x_ruedas = 0
     for i in range(0, len(catalogo)):
         if catalogo[i].ruedas == ruedas:
-            print(catalogo[i])
+            print(type(catalogo[i]).__name__)
+            print(vars(catalogo[i]))
             con_x_ruedas += 1
     print("Se han encontrado", con_x_ruedas, "vehiculos con ", ruedas, "ruedas")
