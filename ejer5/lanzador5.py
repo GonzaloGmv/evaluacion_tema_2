@@ -6,4 +6,6 @@ def main5():
     b = Bicicleta("blanco", 2, "deportiva")
     m = Motocicleta("rojo", 2, "urbana", 160, 500)
     lst = [c, ca, b, m]
-    catalogar(lst)
+    catalogar(lst, 4)
+    catalogar(lst, 2)
+    catalogar(lst, 0)
