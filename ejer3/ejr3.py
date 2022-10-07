@@ -7,8 +7,3 @@ class Producto():
         print("El producto se ha creado con exito")
     def __str__(self):
         return "{}: codigo: {}, precio: {}, tipo: {}".format(self.nombre, self.codigo, self.precio, self.tipo)
-
-patatas = Producto(768, "Patatas", 1.5, "pequeñas")
-print(patatas)
-patatas.precio = 1.8
-print(patatas)
