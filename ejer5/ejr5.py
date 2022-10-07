@@ -36,6 +36,10 @@ class Motocicleta(Bicicleta):
     def __str__(self):
         return Bicicleta.__str__(self) + ", {} km/h, {}cc".format(self.velocidad, self.cilindrada)
 
-def catalogar(catalogo):
+def catalogar(catalogo, ruedas):
+    con_x_ruedas = 0
     for i in range(0, len(catalogo)):
-        print(catalogo[i])
+        if catalogo[i].ruedas == ruedas:
+            print(catalogo[i])
+            con_x_ruedas += 1
+    print("Se han encontrado", con_x_ruedas, "vehiculos con ", ruedas, "ruedas")
