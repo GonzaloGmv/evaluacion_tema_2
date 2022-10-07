@@ -35,3 +35,15 @@ class Motocicleta(Bicicleta):
         self.cilindrada = cilindrada
     def __str__(self):
         return Bicicleta.__str__(self) + ", {} km/h, {}cc".format(self.velocidad, self.cilindrada)
+
+def catalogar(catalogo):
+    for i in range(0, len(catalogo)):
+        print(catalogo[i])
+
+c = Coche("azul", 4, 150, 1200)
+ca = Camioneta("negro", 4, 120, 1000, 1200)
+b = Bicicleta("blanco", 2, "deportiva")
+m = Motocicleta("rojo", 2, "urbana", 160, 500)
+lst = [c, ca, b, m]
+
+catalogar(lst)

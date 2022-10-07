@@ -5,6 +5,7 @@ def main5():
     ca = Camioneta("negro", 4, 120, 1000, 1200)
     b = Bicicleta("blanco", 2, "deportiva")
     m = Motocicleta("rojo", 2, "urbana", 160, 500)
+    lst = [c, ca, b, m]
     print(c)
     print(ca)
     print(b)
