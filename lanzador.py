@@ -1,6 +1,7 @@
 from ejer1.lanzador1 import main1
 from ejer2.lanzador2 import main2
 from ejer3.lanzador3 import main3
+from ejer4.lanzador4 import main4
 from ejer5.lanzador5 import main5
 
 def main():
@@ -19,5 +20,7 @@ def main():
         main2()
     elif ejr == '3':
         main3()
+    elif ejr == '4':
+        main4()
     elif ejr == '5':
         main5()
