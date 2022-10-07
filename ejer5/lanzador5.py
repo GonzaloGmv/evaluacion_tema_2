@@ -1,4 +1,4 @@
-from ejer5.ejr5 import Vehiculo, Coche, Camioneta, Bicicleta, Motocicleta
+from ejer5.ejr5 import Vehiculo, Coche, Camioneta, Bicicleta, Motocicleta, catalogar
 
 def main5():
     c = Coche("azul", 4, 150, 1200)
@@ -6,7 +6,4 @@ def main5():
     b = Bicicleta("blanco", 2, "deportiva")
     m = Motocicleta("rojo", 2, "urbana", 160, 500)
     lst = [c, ca, b, m]
-    print(c)
-    print(ca)
-    print(b)
-    print(m)
+    catalogar(lst)
